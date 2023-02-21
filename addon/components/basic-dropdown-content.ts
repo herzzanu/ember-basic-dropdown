@@ -57,6 +57,7 @@ export default class BasicDropdownContent extends Component<Args> {
   @tracked animationClass = this.transitioningInClass;
 
   get destinationElement(): Element | null {
+        console.log('hola')
     return document.getElementById(this.args.destination);
   }
 
